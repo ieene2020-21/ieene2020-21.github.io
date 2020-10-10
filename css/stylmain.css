@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/bg.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/*HEADER*/
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: #ffffff;
+    color: black;
+}
+ul li.active a{
+    background-color: #ffffff;
+    color: black;
+}
+.logo img{
+    margin-top: 10px;
+    float: left;
+    width: 100px;
+    height: auto;
+    /*position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100px;
+    height: auto;*/
+    
+}
+.main{
+    max-width: 1500px;
+    margin: auto;
+}
+
+/*END OF HEADER*/
+/*Begin table*/
+table{
+    text-align: center;
+    font-size: 0.9em;
+    line-height: 1.5em;
+    border: 1px solid black;
+    border-collapse: collapse;
+    opacity: 0.95;
+    width: 85%;
+}
+th{
+    background: #a70000;
+    color: white;
+}
+tr:nth-child(even){
+    background: #e8e8e8;
+    opacity: 75%;
+}
+tr:nth-child(odd){
+    background: white;
+    opacity : 75%;
+}
+.tbhead{
+    background: #d08504;
+    color: white;
+    font-size: 25px;
+    padding: 20px;
+}
+th, td{
+    padding: 10px;
+}
+article{
+    overflow-x: auto;
+    overflow-x: visible;
+}
+/*END OF TABLE*/
